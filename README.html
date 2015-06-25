@@ -21,6 +21,14 @@
 			width: 50%;
 			background-color: #F2F2FF;
 		}
+		.ref {
+			background-color: cyan;
+			box-shadow: 0 0 3px #ddd;
+			display: inline-block;
+			padding: 0 0.5rem;
+			border-radius: 5px;
+			font-weight: bold;
+		}
 	</style>
 </head>
 <body>
@@ -33,7 +41,7 @@
 	</section>
 
 	<p>Being on your app page, click this bookmarklet. Following screen will pop up.</p>
-	<img src="https://lazyvab.github.io/component-crawler/main.jpg">Open <a href="https://lazyvab.github.io/component-crawler/main.jpg">page</a> to view screenshot.</img>
+	<img src="https://lazyvab.github.io/component-crawler/main.jpg"></img>
 	<br>
 	
 	<p>The top two green buttons are used to expand or collapse all nodes of tree. You may also expand/collapse node sub-trees by clicking '+' or '-' before node name.</p>
@@ -43,7 +51,7 @@
 	<img src="https://lazyvab.github.io/component-crawler/search.jpg">Open <a href="https://lazyvab.github.io/component-crawler/search.jpg">page</a> to view screenshot.</img>
 	<br>
 	
-	<p>To get reference to any component instance, just click on the name of node in tree. Name will be highlighted in light-blue colour. The component instance will be stored in a global variable 'ref'. You may now use browser to view properties or call methods on this component.</p>
+	<p>To get reference to any component instance, just click on the name of node in tree. Name will be highlighted in <span class="ref">light-blue</span> colour. The component instance will be stored in a global variable 'ref'. You may now use browser console to view properties or call methods on this component.</p>
 	<p>You may exit this view by clicking red cross button on toolbar or pressing 'Escape' from keyboard.</p>
 	<br>
 	
