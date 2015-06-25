@@ -1,0 +1,1 @@
+[{"creationDate":1434965342023,"description":"","id":"Headers_1434965342023","name":"Content-Security-policy bypass for viewtree","pairs":[{"header":"Content-Security-Policy","source":{"key":"Url","operator":"Matches","value":"/target\\/.+\\.html/"},"target":"Response","type":"Remove","value":""}],"ruleType":"Headers","status":"Active"}]
