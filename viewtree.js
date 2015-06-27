@@ -43,6 +43,6 @@ function loadFile(filename, filetype){
 if (typeof viewTree === 'function') {
 	ELM.viewTree();
 } else {
-	loadFile("https://lazyvab.github.io/treemyjson/tree.css", "css");
-	loadFile("https://lazyvab.github.io/treemyjson/tree.js", "js");
+	loadFile("https://lazyvab.github.io/treemyjson/build/tree.css", "css");
+	loadFile("https://lazyvab.github.io/treemyjson/build/tree.js", "js");
 }
