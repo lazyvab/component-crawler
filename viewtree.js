@@ -27,11 +27,7 @@ var viewComponentTree = viewComponentTree || function() {
     }
   }
   
-  viewTree(window, {
-    getProperties: function(obj) {
-      return Object.keys(obj);
-    }
-  });
+  viewTree(window);
 };
 
 function loadFile(filename, filetype, onloadHandler){
